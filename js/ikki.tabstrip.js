@@ -1,3 +1,9 @@
+/*!
+ * Kendo UI Admin v1.0.0 by IKKI & Amikoko - https://ikki2000.github.io/
+ * Copyright 2018 IKKI Studio
+ * Released under the MIT License - https://ikki2000.github.io/KendoUI-Admin-Site/LICENSE
+ */
+
 /* JS for TabStrip | Written by IKKI | 2018-02-03 */
 
 // 选项卡标题、内容及路由创建
