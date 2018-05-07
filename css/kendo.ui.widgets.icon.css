@@ -1,0 +1,374 @@
+/* Widgets icons font */
+@font-face {
+    src: url('../fonts/kendo-ui-widgets-icon.eot');
+    src: url('../fonts/kendo-ui-widgets-icon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kendo-ui-widgets-icon.woff') format('woff'),
+         url('../fonts/kendo-ui-widgets-icon.ttf') format('truetype'),
+         url('../fonts/kendo-ui-widgets-icon.svg') format('svg');
+    font-family: 'widgets';
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class$="Icon"]:after {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    font-family: "widgets";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1em;
+}
+
+.overviewIcon {
+    display: none;
+}
+
+/* Data Management */
+.gridIcon:after {
+    content: '\e818';
+}
+
+.spreadsheetIcon:after {
+    content: '\e84b';
+}
+
+.listViewIcon:after {
+    content: '\e81c';
+}
+
+.pivotGridIcon:after {
+    content: '\e844';
+}
+
+.treeListIcon:after {
+    content: '\e853';
+}
+
+.mobileScrollViewIcon:after {
+    content: '\e831';
+}
+
+/* Editors */
+.autoCompleteIcon:after {
+    content: '\e803';
+}
+
+.colorPickerIcon:after {
+    content: '\e80c';
+}
+
+.comboBoxIcon:after {
+    content: '\e848';
+}
+
+.dateInputIcon:after {
+    content: '\e85c';
+}
+
+.datePickerIcon:after {
+    content: '\e80e';
+}
+
+.dateTimePickerIcon:after {
+    content: '\e80e';
+}
+
+.dropDownListIcon:after {
+    content: '\e813';
+}
+
+.editorIcon:after {
+    content: '\e814';
+}
+
+.listBoxIcon:after {
+    content: '\e85b';
+}
+
+.maskedtextboxIcon:after {
+    content: '\e81e';
+}
+
+.multiselectIcon:after {
+    content: '\e821';
+}
+
+.numericTextBoxIcon:after {
+    content: '\e825';
+}
+
+.sliderIcon:after {
+    content: '\e833';
+}
+
+.timePickerIcon:after {
+    content: '\e83d';
+}
+
+.uploadIcon:after {
+    content: '\e840';
+}
+
+.validatorIcon:after {
+    content: '\e841';
+}
+
+.mobileSwitchIcon:after {
+    content: '\e839';
+}
+
+/* Charts */
+.chartIcon:after {
+    content: '\e804';
+}
+
+.chartAreaIcon:after {
+    content: '\e802';
+}
+
+.chartBarIcon:after {
+    content: '\e804';
+}
+
+.chartBoxPlotIcon:after {
+    content: '\e806';
+}
+
+.chartBubbleIcon:after {
+    content: '\e807';
+}
+
+.chartBulletIcon:after {
+    content: '\e808';
+}
+
+.chartDonutIcon:after {
+    content: '\e810';
+}
+
+.chartFunnelIcon:after {
+    content: '\e816';
+}
+
+.chartLineIcon:after {
+    content: '\e81b';
+}
+
+.chartPieIcon:after {
+    content: '\e827';
+}
+
+.chartPolarIcon:after {
+    content: '\e828';
+}
+
+.chartRadarIcon:after {
+    content: '\e82c';
+}
+
+.chartRangeBarIcon:after {
+    content: '\e846';
+}
+
+.chartRangeAreaIcon:after {
+    content: '\e902';
+}
+
+.chartScatterIcon:after {
+    content: '\e82e';
+}
+
+.sparklineIcon:after {
+    content: '\e835';
+}
+
+.chartStockIcon:after {
+    content: '\e838';
+}
+
+.treemapIcon:after {
+    content: '\e845';
+}
+
+.chartWaterfallIcon:after {
+    content: '\e847';
+}
+
+/* Gauges */
+.gaugeLinearIcon:after {
+    content: '\e81a';
+}
+
+.gaugeRadialIcon:after {
+    content: '\e82d';
+}
+
+/* Barcodes */
+.barcodeIcon:after {
+    content: '\e805';
+}
+
+.qrcodeIcon:after {
+    content: '\e82b';
+}
+
+/* Diagrams & Maps */
+.diagramIcon:after {
+    content: '\e80f';
+}
+
+.mapIcon:after {
+    content: '\e81d';
+}
+
+/* Scheduling */
+.calendarIcon:after {
+    content: '\e80b';
+}
+
+.ganttIcon:after {
+    content: '\e843';
+}
+
+.schedulerIcon:after {
+    content: '\e82f';
+}
+
+/* Framework */
+.dataSourceIcon:after {
+    content: '\e80d';
+}
+
+.drawingIcon:after {
+    content: '\e835';
+}
+
+.pdfIcon:after {
+    content: '\e84e';
+}
+
+.globalizationIcon:after {
+    content: '\e817';
+}
+
+.integrationIcon:after {
+    content: '\e810';
+}
+
+.mvvmIcon:after {
+    content: '\e822';
+}
+
+.spaIcon:after {
+    content: '\e832';
+}
+
+.templatesIcon:after {
+    content: '\e83c';
+}
+
+.mobileAppIcon:after {
+    content: '\e851';
+}
+
+/* Media */
+.mediaPlayerIcon:after {
+    content: '\e858';
+}
+
+/* Layout */
+.dialogIcon:after {
+    content: '\e857';
+}
+
+.notificationIcon:after {
+    content: '\e824';
+}
+
+.responsivePanelIcon:after {
+    content: '\e849';
+}
+
+.splitterIcon:after {
+    content: '\e836';
+}
+
+.tooltipIcon:after {
+    content: '\e83e';
+}
+
+.windowIcon:after {
+    content: '\e842';
+}
+
+/* Navigation */
+.buttonIcon:after {
+    content: '\e809';
+}
+
+.mobileButtonGroupIcon:after {
+    content: '\e80a';
+}
+
+.menuIcon:after {
+    content: '\e81f';
+}
+
+.panelBarIcon:after {
+    content: '\e826';
+}
+
+.tabStripIcon:after {
+    content: '\e83a';
+}
+
+.toolbarIcon:after {
+    content: '\e852';
+}
+
+.treeViewIcon:after {
+    content: '\e83f';
+}
+
+/* Interactivity & UX */
+.dragDropIcon:after {
+    content: '\e811';
+}
+
+.effectsIcon:after {
+    content: '\e815';
+}
+
+.progressBarIcon:after {
+    content: '\e82a';
+}
+
+.sortableIcon:after {
+    content: '\e834';
+}
+
+.stylingIcon:after {
+    content: '\e850';
+}
+
+/* Others */
+.i-layout:after {
+    content: '\e819';
+}
+
+.spreadprocessingIcon:after {
+    content: '\e84d';
+}
+
+.spreadstreamprocessingIcon:after {
+    content: '\e901';
+}
+
+.wordprocessingIcon:after {
+    content: '\e84c';
+}
+
+.ziplibraryIcon:after {
+    content: '\e900';
+}

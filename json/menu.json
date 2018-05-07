@@ -1,0 +1,216 @@
+{
+    "result": "y",
+    "data": [
+        {
+            "text": "<i class='fas fa-sync-alt'></i>刷新",
+            "encoded": false,
+            "url": "javascript:refresh();"
+        },
+        {
+            "text": "<i class='fas fa-expand'></i>全屏",
+            "encoded": false,
+            "cssClass": "fullscreen",
+            "url": "javascript:;"
+        },
+        {
+            "text": "<i class='fas fa-lock'></i>锁屏",
+            "encoded": false,
+            "url": "javascript:lockScreen();"
+        },
+        {
+            "text": "<hr>",
+            "encoded": false
+        },
+        {
+            "text": "<i class='fas fa-paint-brush'></i>配色",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='color' style='background-color: #c39b8f;'></i><i class='color' style='background-color: #d9b6ac;'></i>褐色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"brown\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #d770ad;'></i><i class='color' style='background-color: #ec87c0;'></i>桃色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"pink\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #da4453;'></i><i class='color' style='background-color: #ed5565;'></i>红色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"red\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #e9573f;'></i><i class='color' style='background-color: #fc6e51;'></i>橙色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"orange\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #f6bb42;'></i><i class='color' style='background-color: #ffce54;'></i>黄色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"yellow\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #e6e9ed;'></i><i class='color' style='background-color: #f5f7fa;'></i>白色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"white\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #8cc152;'></i><i class='color' style='background-color: #a0d468;'></i>翠色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"grass\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #37bc9b;'></i><i class='color' style='background-color: #48cfad;'></i>绿色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"green\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #3bafda;'></i><i class='color' style='background-color: #4fc1e9;'></i>青色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"cyan\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #4a89dc;'></i><i class='color' style='background-color: #5d9cec;'></i>蓝色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"blue\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #967adc;'></i><i class='color' style='background-color: #ac92ec;'></i>紫色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"purple\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #434a54;'></i><i class='color' style='background-color: #656d78;'></i>黑色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"black\");"
+                },
+                {
+                    "text": "<i class='color' style='background-color: #aab2bd;'></i><i class='color' style='background-color: #ccd1d9;'></i>灰色",
+                    "encoded": false,
+                    "url": "javascript:changeColor(\"gray\");"
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-globe'></i>语言",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='flag-icon flag-icon-cn'></i>中文简体",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"zh-CHS\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-hk'></i>中文繁體",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"zh-CHT\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-gb'></i>English",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"en-US\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-ru'></i>Русский",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"ru-RU\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-fr'></i>Français",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"fr-FR\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-de'></i>Deutsch",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"de-DE\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-it'></i>Italiano",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"it-IT\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-pt'></i>Português",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"pt-PT\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-es'></i>Español",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"es-ES\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-sa'></i>العربية",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"ar-SA\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-jp'></i>日本語",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"ja-JP\");"
+                },
+                {
+                    "text": "<i class='flag-icon flag-icon-kr'></i>한국어",
+                    "encoded": false,
+                    "url": "javascript:changeLang(\"ko-KR\");"
+                }
+            ]
+        },
+        {
+            "text": "<hr>",
+            "encoded": false
+        },
+        {
+            "text": "<i class='fas fa-envelope'></i><sup class='theme-m-bg'>9</sup>消息",
+            "encoded": false,
+            "cssClass": "links-message",
+            "url": "javascript:linkTo(\"/users/\", \"message\");"
+        },
+        {
+            "text": "<i class='fas fa-bell'></i><sup class='theme-m-bg'>8</sup>提醒",
+            "encoded": false,
+            "cssClass": "links-notice",
+            "url": "javascript:linkTo(\"/users/\", \"notice\");"
+        },
+        {
+            "text": "<hr>",
+            "encoded": false
+        },
+        {
+            "text": "<abbr>IKKI [ Admin ]</abbr><img src='img/IKKI.png' alt='IKKI'>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='fas fa-desktop'></i>前台网站",
+                    "encoded": false,
+                    "url": "site/index.html"
+                },
+                {
+                    "text": "<i class='fas fa-user'></i>用户中心",
+                    "encoded": false,
+                    "cssClass": "links-account",
+                    "url": "javascript:linkTo(\"/users/\", \"account\");"
+                },
+                {
+                    "text": "<i class='fas fa-key'></i>修改密码",
+                    "encoded": false,
+                    "cssClass": "links-password",
+                    "url": "javascript:linkTo(\"/users/\", \"password\");"
+                },
+                {
+                    "text": "<i class='fas fa-cog'></i>系统设置",
+                    "encoded": false,
+                    "cssClass": "links-setting",
+                    "url": "javascript:linkTo(\"/users/\", \"setting\");"
+                },
+                {
+                    "text": "<i class='fas fa-sign-out-alt'></i>退出登录",
+                    "encoded": false,
+                    "url": "javascript:confirmMsg(\"退出登录\", \"你确定要退出登录吗？\", \"question\", logout, \"\", \"\", \"\", noFunc, noFunc, false);"
+                }
+            ]
+        }
+    ]
+}

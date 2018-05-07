@@ -207,11 +207,11 @@ h1 {
   width: 220px;
   height: calc(100% - 60px); }
   #nav small {
-    display: inline-block;
     margin-left: 5px;
-    font-family: tahoma, sans-serif;
     font-size: 11px;
     opacity: .5;
+    display: inline-block;
+    font-family: tahoma, sans-serif;
     -webkit-transform: scale(0.916);
     -moz-transform: none;
     -ms-transform: none; }
@@ -438,6 +438,11 @@ h1 {
   line-height: 20px;
   text-align: center;
   transform: scale(0.8); }
+#menuH small,
+#menuV small {
+  margin-left: 5px;
+  font-size: 11px;
+  opacity: .5; }
 #menuH i,
 #menuV i {
   display: inline-block;

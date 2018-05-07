@@ -1,0 +1,274 @@
+[
+    {
+        "province": "110000",
+        "provinceName": "北京市",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "120000",
+        "provinceName": "天津市",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "130000",
+        "provinceName": "河北省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "140000",
+        "provinceName": "山西省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "150000",
+        "provinceName": "内蒙古自治区",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "210000",
+        "provinceName": "辽宁省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "220000",
+        "provinceName": "吉林省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "230000",
+        "provinceName": "黑龙江省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "310000",
+        "provinceName": "上海市",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "320000",
+        "provinceName": "江苏省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "330000",
+        "provinceName": "浙江省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "340000",
+        "provinceName": "安徽省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "350000",
+        "provinceName": "福建省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "360000",
+        "provinceName": "江西省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "370000",
+        "provinceName": "山东省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "410000",
+        "provinceName": "河南省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "420000",
+        "provinceName": "湖北省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "430000",
+        "provinceName": "湖南省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "440000",
+        "provinceName": "广东省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "450000",
+        "provinceName": "广西壮族自治区",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "460000",
+        "provinceName": "海南省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "500000",
+        "provinceName": "重庆市",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "510000",
+        "provinceName": "四川省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "520000",
+        "provinceName": "贵州省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "530000",
+        "provinceName": "云南省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "540000",
+        "provinceName": "西藏自治区",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "610000",
+        "provinceName": "陕西省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "620000",
+        "provinceName": "甘肃省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "630000",
+        "provinceName": "青海省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "640000",
+        "provinceName": "宁夏回族自治区",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "650000",
+        "provinceName": "新疆维吾尔自治区",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "710000",
+        "provinceName": "台湾省",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "810000",
+        "provinceName": "香港特别行政区",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    },
+    {
+        "province": "820000",
+        "provinceName": "澳门特别行政区",
+        "city": "",
+        "cityName": "",
+        "district": "",
+        "districtName": ""
+    }
+]

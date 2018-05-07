@@ -1,0 +1,665 @@
+{
+    "result": "y",
+    "data": [
+        {
+            "text": "<i class='fas fa-object-group'></i><sup></sup><abbr>综合<small>Dashboard</small><sub class='theme-l'>Hot</sub></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='fas fa-tasks'></i>表单<small>Forms</small><sub class='theme-l'>ing</sub>",
+                    "encoded": false,
+                    "items": [
+                        {
+                            "text": "<i class='fas fa-genderless'></i>表单 Post 提交<sub class='theme-l'>New</sub>",
+                            "encoded": false,
+                            "cssClass": "links-post",
+                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"post\");"
+                        },
+                        {
+                            "text": "<i class='fas fa-genderless'></i>表单 Ajax 提交<sub class='theme-l'>新</sub>",
+                            "encoded": false,
+                            "cssClass": "links-ajax",
+                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"ajax\");"
+                        }
+                    ]
+                },
+                {
+                    "text": "<i class='fas fa-table'></i>表格<small>Grids</small>",
+                    "encoded": false,
+                    "items": [
+                        {
+                            "text": "<i class='fas fa-genderless'></i>敬请期待……",
+                            "encoded": false,
+                            "cssClass": "",
+                            "url": "javascript:;"
+                        }
+                    ]
+                },
+                {
+                    "text": "<i class='fas fa-tree'></i>树形<small>Trees</small>",
+                    "encoded": false,
+                    "items": [
+                        {
+                            "text": "<i class='fas fa-genderless'></i>敬请期待……",
+                            "encoded": false,
+                            "cssClass": "",
+                            "url": "javascript:;"
+                        }
+                    ]
+                },
+                {
+                    "text": "<i class='fas fa-list'></i>列表<small>Lists</small>",
+                    "encoded": false,
+                    "items": [
+                        {
+                            "text": "<i class='fas fa-genderless'></i>敬请期待……",
+                            "encoded": false,
+                            "cssClass": "",
+                            "url": "javascript:;"
+                        }
+                    ]
+                },
+                {
+                    "text": "<i class='fas fa-pause'></i>分配<small>Assigns</small>",
+                    "encoded": false,
+                    "items": [
+                        {
+                            "text": "<i class='fas fa-genderless'></i>敬请期待……",
+                            "encoded": false,
+                            "cssClass": "",
+                            "url": "javascript:;"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-cubes'></i><abbr>框架<small>Framework</small></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='globalizationIcon'></i>全球化<small>Globalization</small>",
+                    "encoded": false,
+                    "cssClass": "links-globalization",
+                    "url": "javascript:linkTo(\"/framework/\", \"globalization\");"
+                },
+                {
+                    "text": "<i class='mvvmIcon'></i>视图模型<small>MVVM</small>",
+                    "encoded": false,
+                    "cssClass": "links-mvvm",
+                    "url": "javascript:linkTo(\"/framework/\", \"mvvm\");"
+                },
+                {
+                    "text": "<i class='dataSourceIcon'></i>数据源<small>DataSource</small>",
+                    "encoded": false,
+                    "cssClass": "links-datasource",
+                    "url": "javascript:linkTo(\"/framework/\", \"datasource\");"
+                },
+                {
+                    "text": "<i class='templatesIcon'></i>模版<small>Templates</small>",
+                    "encoded": false,
+                    "cssClass": "links-templates",
+                    "url": "javascript:linkTo(\"/framework/\", \"templates\");"
+                },
+                {
+                    "text": "<i class='drawingIcon'></i>绘图<small>Drawing</small>",
+                    "encoded": false,
+                    "cssClass": "links-drawing",
+                    "url": "javascript:linkTo(\"/framework/\", \"drawing\");"
+                },
+                {
+                    "text": "<i class='spaIcon'></i>单页应用<small>SPA</small>",
+                    "encoded": false,
+                    "cssClass": "links-spa",
+                    "url": "javascript:linkTo(\"/framework/\", \"spa\");"
+                },
+                {
+                    "text": "<i class='pdfIcon'></i>PDF导出<small>PDF Export</small>",
+                    "encoded": false,
+                    "cssClass": "links-pdf_export",
+                    "url": "javascript:linkTo(\"/framework/\", \"pdf_export\");"
+                },
+                {
+                    "text": "<i class='mobileAppIcon'></i>触摸事件<small>Touch Events</small>",
+                    "encoded": false,
+                    "cssClass": "links-touch_events",
+                    "url": "javascript:linkTo(\"/framework/\", \"touch_events\");"
+                },
+                {
+                    "text": "<i class='integrationIcon'></i>整合<small>Integration</small>",
+                    "encoded": false,
+                    "cssClass": "links-integration",
+                    "url": "javascript:linkTo(\"/framework/\", \"integration\");"
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-columns'></i><abbr>布局<small>Layout</small></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='splitterIcon'></i>页面布局<small>Splitter</small>",
+                    "encoded": false,
+                    "cssClass": "links-splitter",
+                    "url": "javascript:linkTo(\"/layout/\", \"splitter\");"
+                },
+                {
+                    "text": "<i class='responsivePanelIcon'></i>响应面板<small>Responsive Panel</small>",
+                    "encoded": false,
+                    "cssClass": "links-responsive_panel",
+                    "url": "javascript:linkTo(\"/layout/\", \"responsive_panel\");"
+                },
+                {
+                    "text": "<i class='windowIcon'></i>模态框<small>Window</small>",
+                    "encoded": false,
+                    "cssClass": "links-window",
+                    "url": "javascript:linkTo(\"/layout/\", \"window\");"
+                },
+                {
+                    "text": "<i class='dialogIcon'></i>对话框<small>Dialog</small>",
+                    "encoded": false,
+                    "cssClass": "links-dialog",
+                    "url": "javascript:linkTo(\"/layout/\", \"dialog\");"
+                },
+                {
+                    "text": "<i class='notificationIcon'></i>通知框<small>Notification</small>",
+                    "encoded": false,
+                    "cssClass": "links-notification",
+                    "url": "javascript:linkTo(\"/layout/\", \"notification\");"
+                },
+                {
+                    "text": "<i class='tooltipIcon'></i>提示框<small>Tooltip</small>",
+                    "encoded": false,
+                    "cssClass": "links-tooltip",
+                    "url": "javascript:linkTo(\"/layout/\", \"tooltip\");"
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-map-signs'></i><abbr>导航<small>Navigation</small></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='menuIcon'></i>菜单<small>Menu</small>",
+                    "encoded": false,
+                    "cssClass": "links-menu",
+                    "url": "javascript:linkTo(\"/navigation/\", \"menu\");"
+                },
+                {
+                    "text": "<i class='panelBarIcon'></i>折叠面板<small>PanelBar</small>",
+                    "encoded": false,
+                    "cssClass": "links-panelbar",
+                    "url": "javascript:linkTo(\"/navigation/\", \"panelbar\");"
+                },
+                {
+                    "text": "<i class='tabStripIcon'></i>选项卡<small>TabStrip</small>",
+                    "encoded": false,
+                    "cssClass": "links-tabstrip",
+                    "url": "javascript:linkTo(\"/navigation/\", \"tabstrip\");"
+                },
+                {
+                    "text": "<i class='toolbarIcon'></i>工具栏<small>ToolBar</small>",
+                    "encoded": false,
+                    "cssClass": "links-toolbar",
+                    "url": "javascript:linkTo(\"/navigation/\", \"toolbar\");"
+                },
+                {
+                    "text": "<i class='treeViewIcon'></i>树形视图<small>TreeView</small>",
+                    "encoded": false,
+                    "cssClass": "links-treeview",
+                    "url": "javascript:linkTo(\"/navigation/\", \"treeview\");"
+                },
+                {
+                    "text": "<i class='buttonIcon'></i>按钮<small>Button</small>",
+                    "encoded": false,
+                    "cssClass": "links-button",
+                    "url": "javascript:linkTo(\"/navigation/\", \"button\");"
+                },
+                {
+                    "text": "<i class='mobileButtonGroupIcon'></i>按钮组<small>ButtonGroup</small>",
+                    "encoded": false,
+                    "cssClass": "links-buttongroup",
+                    "url": "javascript:linkTo(\"/navigation/\", \"buttongroup\");"
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-tasks'></i><abbr>表单<small>Forms</small></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='mobileSwitchIcon'></i>转换框<small>Switch</small>",
+                    "encoded": false,
+                    "cssClass": "links-switch",
+                    "url": "javascript:linkTo(\"/forms/\", \"switch\");"
+                },
+                {
+                    "text": "<i class='numericTextBoxIcon'></i>数字框<small>NumericTextBox</small>",
+                    "encoded": false,
+                    "cssClass": "links-numerictextbox",
+                    "url": "javascript:linkTo(\"/forms/\", \"numerictextbox\");"
+                },
+                {
+                    "text": "<i class='datePickerIcon'></i>日期框<small>DatePicker</small>",
+                    "encoded": false,
+                    "cssClass": "links-datepicker",
+                    "url": "javascript:linkTo(\"/forms/\", \"datepicker\");"
+                },
+                {
+                    "text": "<i class='timePickerIcon'></i>时间框<small>TimePicker</small>",
+                    "encoded": false,
+                    "cssClass": "links-timepicker",
+                    "url": "javascript:linkTo(\"/forms/\", \"timepicker\");"
+                },
+                {
+                    "text": "<i class='dateTimePickerIcon'></i>时日框<small>DateTimePicker</small>",
+                    "encoded": false,
+                    "cssClass": "links-datetimepicker",
+                    "url": "javascript:linkTo(\"/forms/\", \"datetimepicker\");"
+                },
+                {
+                    "text": "<i class='dateInputIcon'></i>时日掩码框<small>DateInput</small>",
+                    "encoded": false,
+                    "cssClass": "links-dateinput",
+                    "url": "javascript:linkTo(\"/forms/\", \"dateinput\");"
+                },
+                {
+                    "text": "<i class='maskedtextboxIcon'></i>掩码框<small>MaskedTextBox</small>",
+                    "encoded": false,
+                    "cssClass": "links-maskedtextbox",
+                    "url": "javascript:linkTo(\"/forms/\", \"maskedtextbox\");"
+                },
+                {
+                    "text": "<i class='autoCompleteIcon'></i>自动完成框<small>AutoComplete</small>",
+                    "encoded": false,
+                    "cssClass": "links-autocomplete",
+                    "url": "javascript:linkTo(\"/forms/\", \"autocomplete\");"
+                },
+                {
+                    "text": "<i class='dropDownListIcon'></i>单选下拉框<small>DropDownList</small>",
+                    "encoded": false,
+                    "cssClass": "links-dropdownlist",
+                    "url": "javascript:linkTo(\"/forms/\", \"dropdownlist\");"
+                },
+                {
+                    "text": "<i class='comboBoxIcon'></i>输入下拉框<small>ComboBox</small>",
+                    "encoded": false,
+                    "cssClass": "links-combobox",
+                    "url": "javascript:linkTo(\"/forms/\", \"combobox\");"
+                },
+                {
+                    "text": "<i class='multiselectIcon'></i>多选下拉框<small>MultiSelect</small>",
+                    "encoded": false,
+                    "cssClass": "links-multiselect",
+                    "url": "javascript:linkTo(\"/forms/\", \"multiselect\");"
+                },
+                {
+                    "text": "<i class='colorPickerIcon'></i>颜色框<small>ColorPicker</small>",
+                    "encoded": false,
+                    "cssClass": "links-colorpicker",
+                    "url": "javascript:linkTo(\"/forms/\", \"colorpicker\");"
+                },
+                {
+                    "text": "<i class='sliderIcon'></i>滑块框<small>Slider</small>",
+                    "encoded": false,
+                    "cssClass": "links-slider",
+                    "url": "javascript:linkTo(\"/forms/\", \"slider\");"
+                },
+                {
+                    "text": "<i class='progressBarIcon'></i>进度框<small>ProgressBar</small>",
+                    "encoded": false,
+                    "cssClass": "links-progressbar",
+                    "url": "javascript:linkTo(\"/forms/\", \"progressbar\");"
+                },
+                {
+                    "text": "<i class='listBoxIcon'></i>穿梭框<small>ListBox</small>",
+                    "encoded": false,
+                    "cssClass": "links-listbox",
+                    "url": "javascript:linkTo(\"/forms/\", \"listbox\");"
+                },
+                {
+                    "text": "<i class='editorIcon'></i>富文本框<small>Editor</small>",
+                    "encoded": false,
+                    "cssClass": "links-editor",
+                    "url": "javascript:linkTo(\"/forms/\", \"editor\");"
+                },
+                {
+                    "text": "<i class='uploadIcon'></i>上传框<small>Upload</small>",
+                    "encoded": false,
+                    "cssClass": "links-upload",
+                    "url": "javascript:linkTo(\"/forms/\", \"upload\");"
+                },
+                {
+                    "text": "<i class='validatorIcon'></i>验证<small>Validator</small>",
+                    "encoded": false,
+                    "cssClass": "links-validator",
+                    "url": "javascript:linkTo(\"/forms/\", \"validator\");"
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-database'></i><abbr>数据<small>Data</small></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='gridIcon'></i>表格<small>Grid</small>",
+                    "encoded": false,
+                    "cssClass": "links-grid",
+                    "url": "javascript:linkTo(\"/data/\", \"grid\");"
+                },
+                {
+                    "text": "<i class='treeListIcon'></i>树形列表<small>TreeList</small>",
+                    "encoded": false,
+                    "cssClass": "links-treelist",
+                    "url": "javascript:linkTo(\"/data/\", \"treelist\");"
+                },
+                {
+                    "text": "<i class='listViewIcon'></i>列表视图<small>ListView</small>",
+                    "encoded": false,
+                    "cssClass": "links-listview",
+                    "url": "javascript:linkTo(\"/data/\", \"listview\");"
+                },
+                {
+                    "text": "<i class='spreadsheetIcon'></i>电子表格<small>Spreadsheet</small>",
+                    "encoded": false,
+                    "cssClass": "links-spreadsheet",
+                    "url": "javascript:linkTo(\"/data/\", \"spreadsheet\");"
+                },
+                {
+                    "text": "<i class='pivotGridIcon'></i>透视表格<small>PivotGrid</small>",
+                    "encoded": false,
+                    "cssClass": "links-pivotgrid",
+                    "url": "javascript:linkTo(\"/data/\", \"pivotgrid\");"
+                },
+                {
+                    "text": "<i class='mobileScrollViewIcon'></i>滚动视图<small>ScrollView</small>",
+                    "encoded": false,
+                    "cssClass": "links-scrollview",
+                    "url": "javascript:linkTo(\"/data/\", \"scrollview\");"
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-calendar-alt'></i><abbr>日程<small>Scheduling</small></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='calendarIcon'></i>日历<small>Calendar</small>",
+                    "encoded": false,
+                    "cssClass": "links-calendar",
+                    "url": "javascript:linkTo(\"/scheduling/\", \"calendar\");"
+                },
+                {
+                    "text": "<i class='schedulerIcon'></i>日程表<small>Scheduler</small>",
+                    "encoded": false,
+                    "cssClass": "links-scheduler",
+                    "url": "javascript:linkTo(\"/scheduling/\", \"scheduler\");"
+                },
+                {
+                    "text": "<i class='ganttIcon'></i>甘特图<small>Gantt</small>",
+                    "encoded": false,
+                    "cssClass": "links-gantt",
+                    "url": "javascript:linkTo(\"/scheduling/\", \"gantt\");"
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-play-circle'></i><abbr>媒体<small>Media</small></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='mediaPlayerIcon'></i>媒体播放器<small>MediaPlayer</small>",
+                    "encoded": false,
+                    "cssClass": "links-mediaplayer",
+                    "url": "javascript:linkTo(\"/media/\", \"mediaplayer\");"
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-comments'></i><abbr>交互<small>Interactivity</small></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='dragDropIcon'></i>拖放<small>Drag and Drop</small>",
+                    "encoded": false,
+                    "cssClass": "links-drag_and_drop",
+                    "url": "javascript:linkTo(\"/interactivity/\", \"drag_and_drop\");"
+                },
+                {
+                    "text": "<i class='sortableIcon'></i>拖放排序<small>Sortable</small>",
+                    "encoded": false,
+                    "cssClass": "links-sortable",
+                    "url": "javascript:linkTo(\"/interactivity/\", \"sortable\");"
+                },
+                {
+                    "text": "<i class='stylingIcon'></i>样式<small>Styling</small>",
+                    "encoded": false,
+                    "cssClass": "links-styling",
+                    "url": "javascript:linkTo(\"/interactivity/\", \"styling\");"
+                },
+                {
+                    "text": "<i class='effectsIcon'></i>特效<small>Effects</small>",
+                    "encoded": false,
+                    "cssClass": "links-effects",
+                    "url": "javascript:linkTo(\"/interactivity/\", \"effects\");"
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-chart-bar'></i><abbr>图表<small>Charts</small></abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "<i class='chartAreaIcon'></i>区域图<small>Area Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-area_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"area_charts\");"
+                },
+                {
+                    "text": "<i class='chartBarIcon'></i>条形图<small>Bar Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-bar_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"bar_charts\");"
+                },
+                {
+                    "text": "<i class='chartBoxPlotIcon'></i>箱线图<small>Box Plot Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-box_plot_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"box_plot_charts\");"
+                },
+                {
+                    "text": "<i class='chartBubbleIcon'></i>气泡图<small>Bubble Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-bubble_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"bubble_charts\");"
+                },
+                {
+                    "text": "<i class='chartBulletIcon'></i>子弹图<small>Bullet Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-bullet_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"bullet_charts\");"
+                },
+                {
+                    "text": "<i class='chartDonutIcon'></i>环形图<small>Donut Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-donut_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"donut_charts\");"
+                },
+                {
+                    "text": "<i class='chartFunnelIcon'></i>漏斗图<small>Funnel Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-funnel_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"funnel_charts\");"
+                },
+                {
+                    "text": "<i class='chartLineIcon'></i>折线图<small>Line Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-line_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"line_charts\");"
+                },
+                {
+                    "text": "<i class='chartPieIcon'></i>饼图<small>Pie Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-pie_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"pie_charts\");"
+                },
+                {
+                    "text": "<i class='chartPolarIcon'></i>极坐标图<small>Polar Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-polar_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"polar_charts\");"
+                },
+                {
+                    "text": "<i class='chartRadarIcon'></i>雷达图<small>Radar Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-radar_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"radar_charts\");"
+                },
+                {
+                    "text": "<i class='chartScatterIcon'></i>散点图<small>Scatter Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-scatter_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"scatter_charts\");"
+                },
+                {
+                    "text": "<i class='sparklineIcon'></i>波形图<small>Sparklines</small>",
+                    "encoded": false,
+                    "cssClass": "links-sparklines",
+                    "url": "javascript:linkTo(\"/charts/\", \"sparklines\");"
+                },
+                {
+                    "text": "<i class='chartStockIcon'></i>股票图<small>Stock Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-stock_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"stock_charts\");"
+                },
+                {
+                    "text": "<i class='treemapIcon'></i>树图<small>TreeMap</small>",
+                    "encoded": false,
+                    "cssClass": "links-treemap",
+                    "url": "javascript:linkTo(\"/charts/\", \"treemap\");"
+                },
+                {
+                    "text": "<i class='chartWaterfallIcon'></i>瀑布图<small>Waterfall Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-waterfall_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"waterfall_charts\");"
+                },
+                {
+                    "text": "<i class='chartRangeAreaIcon'></i>范区域图<small>Range Area Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-range_area_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"range_area_charts\");"
+                },
+                {
+                    "text": "<i class='chartRangeBarIcon'></i>范条形图<small>Range Bar Charts</small>",
+                    "encoded": false,
+                    "cssClass": "links-range_bar_charts",
+                    "url": "javascript:linkTo(\"/charts/\", \"range_bar_charts\");"
+                },
+                {
+                    "text": "<i class='fas fa-thermometer-half'></i>量规<small>Gauges</small>",
+                    "encoded": false,
+                    "items": [
+                        {
+                            "text": "<i class='gaugeLinearIcon'></i>线性计<small>Linear Gauge</small>",
+                            "encoded": false,
+                            "cssClass": "links-linear_gauge",
+                            "url": "javascript:linkTo(\"/charts/gauges/\", \"linear_gauge\");"
+                        },
+                        {
+                            "text": "<i class='gaugeRadialIcon'></i>径向计<small>Radial Gauge</small>",
+                            "encoded": false,
+                            "cssClass": "links-radial_gauge",
+                            "url": "javascript:linkTo(\"/charts/gauges/\", \"radial_gauge\");"
+                        }
+                    ]
+                },
+                {
+                    "text": "<i class='fas fa-barcode'></i>条码<small>Barcodes</small>",
+                    "encoded": false,
+                    "items": [
+                        {
+                            "text": "<i class='barcodeIcon'></i>条形码<small>Barcode</small>",
+                            "encoded": false,
+                            "cssClass": "links-barcode",
+                            "url": "javascript:linkTo(\"/charts/barcodes/\", \"barcode\");"
+                        },
+                        {
+                            "text": "<i class='qrcodeIcon'></i>二维码<small>QR Code</small>",
+                            "encoded": false,
+                            "cssClass": "links-qr_code",
+                            "url": "javascript:linkTo(\"/charts/barcodes/\", \"qr_code\");"
+                        }
+                    ]
+                },
+                {
+                    "text": "<i class='fas fa-map'></i>地图<small>Maps</small>",
+                    "encoded": false,
+                    "items": [
+                        {
+                            "text": "<i class='diagramIcon'></i>架构图<small>Diagram</small>",
+                            "encoded": false,
+                            "cssClass": "links-diagram",
+                            "url": "javascript:linkTo(\"/charts/maps/\", \"diagram\");"
+                        },
+                        {
+                            "text": "<i class='mapIcon'></i>地图<small>Map</small>",
+                            "encoded": false,
+                            "cssClass": "links-map",
+                            "url": "javascript:linkTo(\"/charts/maps/\", \"map\");"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "<i class='fas fa-list-ol'></i><abbr>一级菜单</abbr>",
+            "encoded": false,
+            "items": [
+                {
+                    "text": "二级菜单"
+                },
+                {
+                    "text": "二级菜单",
+                    "items": [
+                        {
+                            "text": "三级菜单"
+                        },
+                        {
+                            "text": "三级菜单",
+                            "items": [
+                                {
+                                    "text": "四级菜单"
+                                },
+                                {
+                                    "text": "四级菜单",
+                                    "items": [
+                                        {
+                                            "text": "五级菜单"
+                                        },
+                                        {
+                                            "text": "五级菜单"
+                                        },
+                                        {
+                                            "text": "五级菜单"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "四级菜单"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "三级菜单"
+                        }
+                    ]
+                },
+                {
+                    "text": "二级菜单"
+                }
+            ]
+        }
+    ]
+}
