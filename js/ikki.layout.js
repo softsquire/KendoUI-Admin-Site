@@ -62,7 +62,8 @@ function tokenAuth() {
             'Authorization': sessionStorage.getItem('token'),
         },
         async: false,
-        type: 'post',
+        type: 'get',
+        // type: 'post',
         data: {
             userid: sessionStorage.getItem('userid')
         },
@@ -239,7 +240,8 @@ function changeLang(lang) {
 // 退出登录
 function logout() {
     $.ajax({
-        type: 'post',
+        type: 'get',
+        // type: 'post',
         data: {
             userid: sessionStorage.getItem('userid')
         },
