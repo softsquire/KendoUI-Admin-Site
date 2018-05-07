@@ -92,7 +92,8 @@
                                 $('#loading').show();
                                 $('.btn-primary').prop('disabled', true);
                                 $.ajax({
-                                    type: 'post',
+                                    type: 'get',
+                                    // type: 'post',
                                     data: $('form').serialize(),
                                     url: 'json/login.json',
                                     dataType: 'json',
