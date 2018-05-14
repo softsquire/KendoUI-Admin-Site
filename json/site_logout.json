@@ -23,69 +23,359 @@
             "encoded": false,
             "items": [
                 {
-                    "text": "<i class='color' style='background-color: #c39b8f;'></i><i class='color' style='background-color: #d9b6ac;'></i>褐色",
+                    "text": "<i class='fas fa-genderless'></i>IKKI Amikoko",
                     "encoded": false,
-                    "url": "javascript:changeColor(\"brown\");"
+                    "items": [
+                        {
+                            "text": "<i class='color' style='background-color: #1890ff;'></i><i class='color' style='background-color: #69c0ff;'></i>默认",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"default\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #c39b8f;'></i><i class='color' style='background-color: #d9b6ac;'></i>褐色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"brown\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #d770ad;'></i><i class='color' style='background-color: #ec87c0;'></i>桃色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"pink\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #da4453;'></i><i class='color' style='background-color: #ed5565;'></i>红色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"red\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #e9573f;'></i><i class='color' style='background-color: #fc6e51;'></i>橙色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"orange\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #f6bb42;'></i><i class='color' style='background-color: #ffce54;'></i>黄色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"yellow\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #e6e9ed;'></i><i class='color' style='background-color: #f5f7fa;'></i>白色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"white\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #8cc152;'></i><i class='color' style='background-color: #a0d468;'></i>翠色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"grass\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #37bc9b;'></i><i class='color' style='background-color: #48cfad;'></i>绿色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"green\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #3bafda;'></i><i class='color' style='background-color: #4fc1e9;'></i>青色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"cyan\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #4a89dc;'></i><i class='color' style='background-color: #5d9cec;'></i>蓝色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"blue\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #967adc;'></i><i class='color' style='background-color: #ac92ec;'></i>紫色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"purple\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #434a54;'></i><i class='color' style='background-color: #656d78;'></i>黑色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"black\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #aab2bd;'></i><i class='color' style='background-color: #ccd1d9;'></i>灰色",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"gray\");"
+                        }
+                    ]
                 },
                 {
-                    "text": "<i class='color' style='background-color: #d770ad;'></i><i class='color' style='background-color: #ec87c0;'></i>桃色",
+                    "text": "<i class='fas fa-genderless'></i>Ant Design",
                     "encoded": false,
-                    "url": "javascript:changeColor(\"pink\");"
+                    "items": [
+                        {
+                            "text": "<i class='color' style='background-color: #1890ff;'></i><i class='color' style='background-color: #40a9ff;'></i>默认",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_default\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #f5222d;'></i><i class='color' style='background-color: #ff7875;'></i>薄暮",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_red\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #fa541c;'></i><i class='color' style='background-color: #ff9c6e;'></i>火山",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_volcano\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #fa8c16;'></i><i class='color' style='background-color: #ffc069;'></i>日暮",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_orange\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #faad14;'></i><i class='color' style='background-color: #ffd666;'></i>金盏花",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_gold\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #fadb14;'></i><i class='color' style='background-color: #fff566;'></i>日出",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_yellow\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #a0d911;'></i><i class='color' style='background-color: #d3f261;'></i>青柠",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_lime\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #52c41a;'></i><i class='color' style='background-color: #95de64;'></i>极光绿",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_green\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #13c2c2;'></i><i class='color' style='background-color: #5cdbd3;'></i>明青",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_cyan\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #1890ff;'></i><i class='color' style='background-color: #69c0ff;'></i>拂晓蓝",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_blue\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #2f54eb;'></i><i class='color' style='background-color: #85a5ff;'></i>极客蓝",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_geekblue\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #722ed1;'></i><i class='color' style='background-color: #b37feb;'></i>酱紫",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_purple\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #eb2f96;'></i><i class='color' style='background-color: #ff85c0;'></i>法式洋红",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"ant_magenta\");"
+                        }
+                    ]
                 },
                 {
-                    "text": "<i class='color' style='background-color: #da4453;'></i><i class='color' style='background-color: #ed5565;'></i>红色",
+                    "text": "<i class='fas fa-genderless'></i>Material Design",
                     "encoded": false,
-                    "url": "javascript:changeColor(\"red\");"
+                    "items": [
+                        {
+                            "text": "<i class='color' style='background-color: #018786;'></i><i class='color' style='background-color: #79bcbc;'></i>Default",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_default\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #f44336;'></i><i class='color' style='background-color: #e57373;'></i>Red",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_red\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #e91e63;'></i><i class='color' style='background-color: #f06292;'></i>Pink",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_pink\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #9c27b0;'></i><i class='color' style='background-color: #ba68c8;'></i>Purple",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_purple\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #673ab7;'></i><i class='color' style='background-color: #9575cd;'></i>Deep Purple",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_deep_purple\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #3f51b5;'></i><i class='color' style='background-color: #7986cb;'></i>Indigo",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_indigo\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #2196f3;'></i><i class='color' style='background-color: #64b5f6;'></i>Blue",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_blue\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #03a9f4;'></i><i class='color' style='background-color: #4fc3f7;'></i>Light Blue",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_light_blue\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #00bcd4;'></i><i class='color' style='background-color: #4dd0e1;'></i>Cyan",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_cyan\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #009688;'></i><i class='color' style='background-color: #4db6ac;'></i>Teal",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_teal\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #4caf50;'></i><i class='color' style='background-color: #81c784;'></i>Green",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_green\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #8bc34a;'></i><i class='color' style='background-color: #aed581;'></i>Light Green",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_light_green\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #cddc39;'></i><i class='color' style='background-color: #dce775;'></i>Lime",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_lime\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #ffeb3b;'></i><i class='color' style='background-color: #fff176;'></i>Yellow",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_yellow\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #ffc107;'></i><i class='color' style='background-color: #ffd54f;'></i>Amber",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_amber\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #ff9800;'></i><i class='color' style='background-color: #ffb74d;'></i>Orange",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_orange\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #ff5722;'></i><i class='color' style='background-color: #ff8a65;'></i>Deep Orange",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_deep_orange\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #795548;'></i><i class='color' style='background-color: #a1887f;'></i>Brown",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_brown\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #9e9e9e;'></i><i class='color' style='background-color: #e0e0e0;'></i>Grey",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_grey\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #607d8b;'></i><i class='color' style='background-color: #90a4ae;'></i>Blue Grey",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"material_blue_grey\");"
+                        }
+                    ]
                 },
                 {
-                    "text": "<i class='color' style='background-color: #e9573f;'></i><i class='color' style='background-color: #fc6e51;'></i>橙色",
+                    "text": "<i class='fas fa-genderless'></i>Kendo UI",
                     "encoded": false,
-                    "url": "javascript:changeColor(\"orange\");"
+                    "items": [
+                        {
+                            "text": "<i class='color' style='background-color: #f35800;'></i><i class='color' style='background-color: #f0713a;'></i>Default",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"kendo_ui_default\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #ff6358;'></i><i class='color' style='background-color: #eb5b51;'></i>Default v2",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"kendo_ui_default_v2\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #23bde0;'></i><i class='color' style='background-color: #21b0d0;'></i>Default Blue",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"kendo_ui_default_blue\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #53b827;'></i><i class='color' style='background-color: #4ca924;'></i>Default Green",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"kendo_ui_default_green\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #ff9411;'></i><i class='color' style='background-color: #eb8810;'></i>Default Orange",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"kendo_ui_default_orange\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #bf70cc;'></i><i class='color' style='background-color: #b067bc;'></i>Default Purple",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"kendo_ui_default_purple\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #28bfba;'></i><i class='color' style='background-color: #25b0ab;'></i>Default Turquoise",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"kendo_ui_default_turquoise\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #007bff;'></i><i class='color' style='background-color: #52b1ff;'></i>Bootstrap v4",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"kendo_ui_bootstrap_v4\");"
+                        }
+                    ]
                 },
                 {
-                    "text": "<i class='color' style='background-color: #f6bb42;'></i><i class='color' style='background-color: #ffce54;'></i>黄色",
+                    "text": "<i class='fas fa-genderless'></i>Bootstrap",
                     "encoded": false,
-                    "url": "javascript:changeColor(\"yellow\");"
-                },
-                {
-                    "text": "<i class='color' style='background-color: #e6e9ed;'></i><i class='color' style='background-color: #f5f7fa;'></i>白色",
-                    "encoded": false,
-                    "url": "javascript:changeColor(\"white\");"
-                },
-                {
-                    "text": "<i class='color' style='background-color: #8cc152;'></i><i class='color' style='background-color: #a0d468;'></i>翠色",
-                    "encoded": false,
-                    "url": "javascript:changeColor(\"grass\");"
-                },
-                {
-                    "text": "<i class='color' style='background-color: #37bc9b;'></i><i class='color' style='background-color: #48cfad;'></i>绿色",
-                    "encoded": false,
-                    "url": "javascript:changeColor(\"green\");"
-                },
-                {
-                    "text": "<i class='color' style='background-color: #3bafda;'></i><i class='color' style='background-color: #4fc1e9;'></i>青色",
-                    "encoded": false,
-                    "url": "javascript:changeColor(\"cyan\");"
-                },
-                {
-                    "text": "<i class='color' style='background-color: #4a89dc;'></i><i class='color' style='background-color: #5d9cec;'></i>蓝色",
-                    "encoded": false,
-                    "url": "javascript:changeColor(\"blue\");"
-                },
-                {
-                    "text": "<i class='color' style='background-color: #967adc;'></i><i class='color' style='background-color: #ac92ec;'></i>紫色",
-                    "encoded": false,
-                    "url": "javascript:changeColor(\"purple\");"
-                },
-                {
-                    "text": "<i class='color' style='background-color: #434a54;'></i><i class='color' style='background-color: #656d78;'></i>黑色",
-                    "encoded": false,
-                    "url": "javascript:changeColor(\"black\");"
-                },
-                {
-                    "text": "<i class='color' style='background-color: #aab2bd;'></i><i class='color' style='background-color: #ccd1d9;'></i>灰色",
-                    "encoded": false,
-                    "url": "javascript:changeColor(\"gray\");"
+                    "items": [
+                        {
+                            "text": "<i class='color' style='background-color: #007bff;'></i><i class='color' style='background-color: #52b1ff;'></i>Bootstrap Blue",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_blue\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #6610f2;'></i><i class='color' style='background-color: #a963ff;'></i>Bootstrap Indigo",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_indigo\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #6f42c1;'></i><i class='color' style='background-color: #b091db;'></i>Bootstrap Purple",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_purple\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #e83e8c;'></i><i class='color' style='background-color: #ff96c0;'></i>Bootstrap Pink",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_pink\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #dc3545;'></i><i class='color' style='background-color: #f5898d;'></i>Bootstrap Red",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_red\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #fd7e14;'></i><i class='color' style='background-color: #ffb566;'></i>Bootstrap Orange",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_orange\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #ffc107;'></i><i class='color' style='background-color: #ffe159;'></i>Bootstrap Yellow",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_yellow\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #28a745;'></i><i class='color' style='background-color: #6bbf79;'></i>Bootstrap Green",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_green\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #20c997;'></i><i class='color' style='background-color: #6de3b8;'></i>Bootstrap Teal",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_teal\");"
+                        },
+                        {
+                            "text": "<i class='color' style='background-color: #17a2b8;'></i><i class='color' style='background-color: #5cc9d1;'></i>Bootstrap Cyan",
+                            "encoded": false,
+                            "url": "javascript:changeColor(\"bootstrap_cyan\");"
+                        }
+                    ]
                 }
             ]
         },
