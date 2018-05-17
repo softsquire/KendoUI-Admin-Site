@@ -78,6 +78,10 @@
     content: '\e813';
 }
 
+.dropDownTreeIcon:after {
+    content: '\e908';
+}
+
 .editorIcon:after {
     content: '\e814';
 }
@@ -116,6 +120,11 @@
 
 .mobileSwitchIcon:after {
     content: '\e839';
+}
+
+/* Conversational UI */
+.chatIcon:after {
+    content: '\e907';
 }
 
 /* Charts */
