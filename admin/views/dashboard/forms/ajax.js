@@ -49,7 +49,7 @@ $(function(){
                 }
             }
         },
-        optionLabel: '-= 省 =-',
+        optionLabel: '-= 省份 =-',
         dataValueField: 'province',
         dataTextField: 'provinceName'
     });
@@ -64,15 +64,15 @@ $(function(){
         },
         autoBind: false,
         cascadeFrom: 'province',
-        optionLabel: '-= 市 =-',
+        optionLabel: '-= 城市 =-',
         dataValueField: 'city',
         dataTextField: 'cityName'
     });
-    $('#district').kendoDropDownList({
+    $('#area').kendoDropDownList({
         dataSource: {
             transport: {
                 read: {
-                    url: 'json/district.json',
+                    url: 'json/area.json',
                     dataType: 'json'
                 }
             }
@@ -80,8 +80,27 @@ $(function(){
         autoBind: false,
         cascadeFrom: 'city',
         optionLabel: '-= 区县 =-',
-        dataValueField: 'district',
-        dataTextField: 'districtName'
+        dataValueField: 'area',
+        dataTextField: 'areaName'
+    });
+    // 居住地
+    $('#domicile').kendoDropDownTree({
+        placeholder: '树形下拉框',
+        dataSource: {
+            transport: {
+                read: {
+                    url: 'json/domicile.json',
+                    dataType: 'json'
+                }
+            },
+            schema: {
+                model: {
+                    children: 'items'
+                }
+            }
+        },
+        dataValueField: 'code',
+        dataTextField: 'name'
     });
     // 民族
     $('#nation').kendoComboBox({
