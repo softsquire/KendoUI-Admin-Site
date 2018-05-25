@@ -1019,4 +1019,12 @@ form .k-switch-off:hover .k-switch-handle {
   background-color: #eee;
   border-color: #ccc; }
 
+.k-popup .k-list .k-item > .k-group {
+  font-size: 12px;
+  line-height: 20px; }
+
+.k-popup .k-list .k-item > .k-group::before {
+  left: -20px;
+  border-width: 10px; }
+
 /*# sourceMappingURL=amikoko.admin.css.map */

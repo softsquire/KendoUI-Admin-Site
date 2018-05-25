@@ -85,7 +85,6 @@ $(function(){
     });
     // 居住地
     $('#domicile').kendoDropDownTree({
-        placeholder: '树形下拉框',
         dataSource: {
             transport: {
                 read: {
@@ -99,6 +98,7 @@ $(function(){
                 }
             }
         },
+        placeholder: '树形下拉框',
         dataValueField: 'code',
         dataTextField: 'name'
     });
@@ -114,8 +114,6 @@ $(function(){
         },
         dataValueField: 'nation',
         dataTextField: 'nationName',
-        minLength: 1,
-        delay: 100,
         suggest: true
     });
     // 语言
@@ -129,7 +127,6 @@ $(function(){
             }
         },
         dataTextField: 'language',
-        delay: 100,
         suggest: true,
         separator: ' '
     });

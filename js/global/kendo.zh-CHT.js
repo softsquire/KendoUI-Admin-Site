@@ -1508,6 +1508,24 @@
             });
     }
 
+    /* DropDownTree messages */
+    if (kendo.ui.DropDownTree) {
+        kendo.ui.DropDownTree.prototype.options.messages =
+            $.extend(true, kendo.ui.DropDownTree.prototype.options.messages, {
+                clear: "清空",
+                deleteTag: "刪除",
+                singleTag: "項已選擇"
+            });
+    }
+
+    /* Chat messages */
+    if (kendo.ui.Chat) {
+        kendo.ui.Chat.prototype.options.messages =
+            $.extend(true, kendo.ui.Chat.prototype.options.messages, {
+                placeholder: "請輸入..."
+            });
+    }
+
     /* Mobile Messages ------------------------------ */
 
     /* Mobile Scroller messages */

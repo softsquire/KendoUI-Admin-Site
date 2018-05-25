@@ -1253,3 +1253,13 @@ form {
         }
     }
 }
+
+.k-popup .k-list .k-item > .k-group {
+    font-size: $font-size-s;
+    line-height: 20px;
+}
+
+.k-popup .k-list .k-item > .k-group::before {
+    left: -20px;
+    border-width: 10px;
+}
