@@ -97,6 +97,7 @@ $(function(){
         },
         checkAll: true,
         checkAllTemplate: '全选',
+        //filter: 'contains',
         autoClose: false
     });
     // 省市县乡村五级联动
@@ -176,5 +177,54 @@ $(function(){
         optionLabel: '-= 村庄 =-',
         dataValueField: 'code',
         dataTextField: 'name'
+    });
+    // 省市区三级联动
+    $('#province2').kendoComboBox({
+        dataSource: {
+            transport: {
+                read: {
+                    url: 'json/provinces.json',
+                    dataType: 'json'
+                }
+            }
+        },
+        placeholder: '-= 省份 =-',
+        dataValueField: 'code',
+        dataTextField: 'name',
+        filter: 'contains'
+    });
+    $('#city2').kendoComboBox({
+        dataSource: {
+            transport: {
+                read: {
+                    url: 'json/cities.json',
+                    dataType: 'json'
+                }
+            }
+        },
+        autoBind: false,
+        cascadeFrom: 'province2',
+        cascadeFromField: 'provinceCode',
+        placeholder: '-= 城市 =-',
+        dataValueField: 'code',
+        dataTextField: 'name',
+        filter: 'contains'
+    });
+    $('#area2').kendoComboBox({
+        dataSource: {
+            transport: {
+                read: {
+                    url: 'json/areas.json',
+                    dataType: 'json'
+                }
+            }
+        },
+        autoBind: false,
+        cascadeFrom: 'city2',
+        cascadeFromField: 'cityCode',
+        placeholder: '-= 区县 =-',
+        dataValueField: 'code',
+        dataTextField: 'name',
+        filter: 'contains'
     });
 });
