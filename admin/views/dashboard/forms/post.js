@@ -88,7 +88,7 @@ $(function(){
         dataSource: {
             transport: {
                 read: {
-                    url: 'json/domicile.json',
+                    url: 'json/select_hierarchical_data.json',
                     dataType: 'json'
                 }
             },

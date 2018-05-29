@@ -877,6 +877,9 @@ h1 {
     background-size: auto 100%; } }
 /* Bootstrap 细节完善 ------------------------------ */
 /* 尺寸 */
+.w-9 {
+  width: 9% !important; }
+
 .w-10 {
   width: 10% !important; }
 
@@ -931,6 +934,9 @@ h1 {
 .h-90 {
   height: 90% !important; }
 
+.ml-p1 {
+  margin-left: 1%; }
+
 /* Kendo UI 细节完善 ------------------------------ */
 /* 通知框 */
 .k-notification-wrap {
@@ -974,6 +980,10 @@ h1 {
 /* 模态框 */
 .k-window-iframecontent {
   height: 100%; }
+
+/* 地图框 */
+.window-map {
+  padding: 0; }
 
 /* 按钮 */
 .k-button-lg {
@@ -1019,6 +1029,7 @@ form .k-switch-off:hover .k-switch-handle {
   background-color: #eee;
   border-color: #ccc; }
 
+/* 下拉分组 */
 .k-popup .k-list .k-item > .k-group {
   font-size: 12px;
   line-height: 20px; }
