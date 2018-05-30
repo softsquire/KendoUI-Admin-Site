@@ -228,6 +228,87 @@ $(function(){
         dataTextField: 'name',
         filter: 'contains'
     });
+    // 地图点选
+    $('#inputBoxMapBtn').click(function() {
+        var divWindow = $('<div class="window-map"></div>').kendoWindow({
+            actions: ['Minimize', 'Maximize', 'Close'],
+            animation: {open: {effects: 'fade:in'}, close: {effects: 'fade:out'}},
+            title: '地图点选',
+            width: '80%',
+            height: '40%',
+            modal: true,
+            pinned: true,
+            activate: function() {
+                $('#inputMap').kendoMap({
+                    center: [51.51515, -0.126500],
+                    minZoom: 2,
+                    maxZoom: 6,
+                    zoom: 2,
+                    layerDefaults: {
+                        shape: {
+                            style: {
+                                fill: {
+                                    color: '#69c0ff',
+                                    opacity: .8
+                                },
+                                stroke: {
+                                    color: '#000000',
+                                    dashType: 'dash'
+                                }
+                            }
+                        }
+                    },
+                    layers: [
+                        {
+                            type: 'shape',
+                            dataSource: {
+                                type: 'geojson',
+                                transport: {
+                                    read: path + 'json/geo/world.json'
+                                }
+                            },
+                            maxZoom: 4
+                        },
+                        {
+                            type: 'shape',
+                            dataSource: {
+                                type: 'geojson',
+                                transport: {
+                                    read: path + 'json/geo/china.json'
+                                }
+                            },
+                            minZoom: 5
+                        }
+                    ],
+                    shapeFeatureCreated: function(e) {
+                        if ($('#inputBoxMap').val() === e.dataItem.properties.name) {
+                            $.each(e.group.children, function(i, items) {
+                                items.options.set('fill.color', '#1890ff');
+                            });
+                        }
+                        e.group.options.tooltip = {
+                            content: e.properties.name,
+                            position: 'cursor'
+                        };
+                    },
+                    shapeMouseEnter: function(e) {
+                        e.shape.options.set('fill.opacity', .5);
+                    },
+                    shapeMouseLeave: function(e) {
+                        e.shape.options.set('fill.opacity', .8);
+                    },
+                    shapeClick: function(e) {
+                        $('#inputBoxMap').val(e.shape.dataItem.properties.name);
+                        e.layer.reset();
+                    }
+                });
+            },
+            close: function() {
+                divWindow.destroy();
+            }
+        }).data('kendoWindow');
+        divWindow.content('<div class="position-absolute w-100 h-100" id="inputMap"></div>').center().open();
+    });
     // 地图选择
     $('#textBoxMapBtn').click(function() {
         var divWindow = $('<div class="window-map"></div>').kendoWindow({
@@ -238,9 +319,8 @@ $(function(){
             height: '40%',
             modal: true,
             pinned: true,
-            resizable: false,
             activate: function() {
-                var iMap = $('#inputMap').kendoMap({
+                var tMap = $('#textMap').kendoMap({
                     center: [36.320666, 108.815888],
                     minZoom: 4,
                     maxZoom: 9,
@@ -347,13 +427,13 @@ $(function(){
                                     {
                                         text: '进入下一层级',
                                         action: function() {
-                                            iMap.layers[3].setDataSource({
+                                            tMap.layers[3].setDataSource({
                                                 type: 'geojson',
                                                 transport: {
                                                     read: path + 'json/geo/' + e.shape.dataItem.properties.id + '.json'
                                                 }
                                             });
-                                            iMap.setOptions({
+                                            tMap.setOptions({
                                                 center: [e.shape.dataItem.properties.latitude, e.shape.dataItem.properties.longitude],
                                                 zoom: 6
                                             });
@@ -389,6 +469,6 @@ $(function(){
                 divWindow.destroy();
             }
         }).data('kendoWindow');
-        divWindow.content('<div class="position-absolute w-100 h-100" id="inputMap"></div>').center().open();
+        divWindow.content('<div class="position-absolute w-100 h-100" id="textMap"></div>').center().open();
     });
 });
