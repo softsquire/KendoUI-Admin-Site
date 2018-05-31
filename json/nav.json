@@ -22,6 +22,12 @@
                             "url": "javascript:linkTo(\"/dashboard/forms/\", \"ajax\");"
                         },
                         {
+                            "text": "<i class='fas fa-genderless'></i>范围选择<sub class='theme-l'>New</sub>",
+                            "encoded": false,
+                            "cssClass": "links-range",
+                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"range\");"
+                        },
+                        {
                             "text": "<i class='fas fa-genderless'></i>下拉分组多选级联",
                             "encoded": false,
                             "cssClass": "links-cascade",

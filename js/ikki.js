@@ -9,9 +9,9 @@
 // 百度统计
 var _hmt = _hmt || [];
 (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?19f119dc89e5fbc1a5a63448c2544768";
-    var s = document.getElementsByTagName("script")[0];
+    var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?19f119dc89e5fbc1a5a63448c2544768';
+    var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(hm, s);
 })();
 
@@ -308,7 +308,7 @@ function iframeWindow(title, width, height, url) {
 /* 表单操作 ****************************************************************************/
 
 // 数字型范围
-function numericRange(rangeStart,rangeEnd,format,decimals,step,min,max){
+function numericRange(rangeStart, rangeEnd, format, decimals, step, min, max) {
     var start = rangeStart.kendoNumericTextBox({
             change: startChange,
             format: format,
@@ -316,7 +316,7 @@ function numericRange(rangeStart,rangeEnd,format,decimals,step,min,max){
             step: step,
             min: min,
             max: max
-        }).data("kendoNumericTextBox"),
+        }).data('kendoNumericTextBox'),
         end = rangeEnd.kendoNumericTextBox({
             change: endChange,
             format: format,
@@ -324,27 +324,27 @@ function numericRange(rangeStart,rangeEnd,format,decimals,step,min,max){
             step: step,
             min: min,
             max: max
-        }).data("kendoNumericTextBox");
+        }).data('kendoNumericTextBox');
     start.max(end.value());
     end.min(start.value());
-    function startChange(){
+    function startChange() {
         var startNumeric = start.value(),
             endNumeric = end.value();
-        if (startNumeric){
+        if (startNumeric) {
             end.min(startNumeric);
-        } else if (endNumeric){
+        } else if (endNumeric) {
             start.max(endNumeric);
         } else {
             start.max(endNumeric);
             end.min(endNumeric);
         }
     }
-    function endChange(){
+    function endChange() {
         var endNumeric = end.value(),
             startNumeric = start.value();
-        if (endNumeric){
+        if (endNumeric) {
             start.max(endNumeric);
-        } else if (startNumeric){
+        } else if (startNumeric) {
             end.min(startNumeric);
         } else {
             start.max(endNumeric);
@@ -354,79 +354,79 @@ function numericRange(rangeStart,rangeEnd,format,decimals,step,min,max){
 }
 
 // 日期型范围
-function dateRange(rangeStart,rangeEnd,type){
-    if(type=="Year"){
+function dateRange(rangeStart, rangeEnd, type) {
+    if (type === 'Year') {
         var start = rangeStart.kendoDatePicker({
                 change: startChange,
-                start: "decade",
-                depth: "decade",
-                format: "yyyy",
-                footer: "今年：#= kendo.toString(data, 'yyyy年') #"
-            }).data("kendoDatePicker"),
+                start: 'decade',
+                depth: 'decade',
+                format: 'yyyy',
+                footer: '今年：#= kendo.toString(data, "yyyy年") #'
+            }).data('kendoDatePicker'),
             end = rangeEnd.kendoDatePicker({
                 change: endChange,
-                start: "decade",
-                depth: "decade",
-                format: "yyyy",
-                footer: "今年：#= kendo.toString(data, 'yyyy年') #"
-            }).data("kendoDatePicker");
-    }else if(type=="Month"){
+                start: 'decade',
+                depth: 'decade',
+                format: 'yyyy',
+                footer: '今年：#= kendo.toString(data, "yyyy年") #'
+            }).data('kendoDatePicker');
+    } else if (type === 'Month') {
         var start = rangeStart.kendoDatePicker({
                 change: startChange,
-                start: "year",
-                depth: "year",
-                format: "yyyy-MM",
-                footer: "当月：#= kendo.toString(data, 'yyyy年MM月') #"
-            }).data("kendoDatePicker"),
+                start: 'year',
+                depth: 'year',
+                format: 'yyyy-MM',
+                footer: '当月：#= kendo.toString(data, "yyyy年MM月") #'
+            }).data('kendoDatePicker'),
             end = rangeEnd.kendoDatePicker({
                 change: endChange,
-                start: "year",
-                depth: "year",
-                format: "yyyy-MM",
-                footer: "当月：#= kendo.toString(data, 'yyyy年MM月') #"
-            }).data("kendoDatePicker");
-    }else if(type=="Time"){
+                start: 'year',
+                depth: 'year',
+                format: 'yyyy-MM',
+                footer: '当月：#= kendo.toString(data, "yyyy年MM月") #'
+            }).data('kendoDatePicker');
+    } else if (type === 'Time') {
         var start = rangeStart.kendoTimePicker({
                 change: startChange,
-                format: "HH:mm"
-            }).data("kendoTimePicker"),
+                format: 'HH:mm'
+            }).data('kendoTimePicker'),
             end = rangeEnd.kendoTimePicker({
                 change: endChange,
-                format: "HH:mm"
-            }).data("kendoTimePicker");
-    }else if(type=="DateTime"){
+                format: 'HH:mm'
+            }).data('kendoTimePicker');
+    } else if (type === 'DateTime') {
         var start = rangeStart.kendoDateTimePicker({
                 change: startChange,
-                format: "yyyy-MM-dd HH:mm",
-                footer: "现在：#= kendo.toString(data, 'yyyy年MM月dd日 HH:mm') #"
-            }).data("kendoDateTimePicker"),
+                format: 'yyyy-MM-dd HH:mm',
+                footer: '现在：#= kendo.toString(data, "yyyy年MM月dd日 HH:mm") #'
+            }).data('kendoDateTimePicker'),
             end = rangeEnd.kendoDateTimePicker({
                 change: endChange,
-                format: "yyyy-MM-dd HH:mm",
-                footer: "现在：#= kendo.toString(data, 'yyyy年MM月dd日 HH:mm') #"
-            }).data("kendoDateTimePicker");
-    }else{
+                format: 'yyyy-MM-dd HH:mm',
+                footer: '现在：#= kendo.toString(data, "yyyy年MM月dd日 HH:mm") #'
+            }).data('kendoDateTimePicker');
+    } else {
         var start = rangeStart.kendoDatePicker({
                 change: startChange,
-                format: "yyyy-MM-dd",
-                footer: "今天：#= kendo.toString(data, 'yyyy年MM月dd日') #"
-            }).data("kendoDatePicker"),
+                format: 'yyyy-MM-dd',
+                footer: '今天：#= kendo.toString(data, "yyyy年MM月dd日") #'
+            }).data('kendoDatePicker'),
             end = rangeEnd.kendoDatePicker({
                 change: endChange,
-                format: "yyyy-MM-dd",
-                footer: "今天：#= kendo.toString(data, 'yyyy年MM月dd日') #"
-            }).data("kendoDatePicker");
+                format: 'yyyy-MM-dd',
+                footer: '今天：#= kendo.toString(data, "yyyy年MM月dd日") #'
+            }).data('kendoDatePicker');
     }
     start.max(end.value());
     end.min(start.value());
-    function startChange(){
+    function startChange() {
         var startDate = start.value(),
             endDate = end.value();
-        if (startDate){
+        if (startDate) {
             startDate = new Date(startDate);
             startDate.setDate(startDate.getDate());
             end.min(startDate);
-        } else if (endDate){
+        } else if (endDate) {
             start.max(new Date(endDate));
         } else {
             endDate = new Date();
@@ -437,11 +437,11 @@ function dateRange(rangeStart,rangeEnd,type){
     function endChange(){
         var endDate = end.value(),
             startDate = start.value();
-        if (endDate){
+        if (endDate) {
             endDate = new Date(endDate);
             endDate.setDate(endDate.getDate());
             start.max(endDate);
-        } else if (startDate){
+        } else if (startDate) {
             end.min(new Date(startDate));
         } else {
             endDate = new Date();
@@ -452,63 +452,63 @@ function dateRange(rangeStart,rangeEnd,type){
 }
 
 // 日期输入型范围
-function dateInputRange(rangeStart,rangeEnd,type){
-    if(type=="Year"){
+function dateInputRange(rangeStart, rangeEnd, type) {
+    if (type === 'Year') {
         var start = rangeStart.kendoDateInput({
                 change: startChange,
-                format: "yyyy"
-            }).data("kendoDateInput"),
+                format: 'yyyy'
+            }).data('kendoDateInput'),
             end = rangeEnd.kendoDateInput({
                 change: endChange,
-                format: "yyyy"
-            }).data("kendoDateInput");
-    }else if(type=="Month"){
+                format: 'yyyy'
+            }).data('kendoDateInput');
+    } else if (type === 'Month') {
         var start = rangeStart.kendoDateInput({
                 change: startChange,
-                format: "yyyy-MM"
-            }).data("kendoDateInput"),
+                format: 'yyyy-MM'
+            }).data('kendoDateInput'),
             end = rangeEnd.kendoDateInput({
                 change: endChange,
-                format: "yyyy-MM"
-            }).data("kendoDateInput");
-    }else if(type=="Time"){
+                format: 'yyyy-MM'
+            }).data('kendoDateInput');
+    } else if (type === 'Time') {
         var start = rangeStart.kendoDateInput({
                 change: startChange,
-                format: "HH:mm:ss"
-            }).data("kendoDateInput"),
+                format: 'HH:mm:ss'
+            }).data('kendoDateInput'),
             end = rangeEnd.kendoDateInput({
                 change: endChange,
-                format: "HH:mm:ss"
-            }).data("kendoDateInput");
-    }else if(type=="DateTime"){
+                format: 'HH:mm:ss'
+            }).data('kendoDateInput');
+    } else if (type === 'DateTime') {
         var start = rangeStart.kendoDateInput({
                 change: startChange,
-                format: "yyyy-MM-dd HH:mm"
-            }).data("kendoDateInput"),
+                format: 'yyyy-MM-dd HH:mm'
+            }).data('kendoDateInput'),
             end = rangeEnd.kendoDateInput({
                 change: endChange,
-                format: "yyyy-MM-dd HH:mm"
-            }).data("kendoDateInput");
-    }else{
+                format: 'yyyy-MM-dd HH:mm'
+            }).data('kendoDateInput');
+    } else {
         var start = rangeStart.kendoDateInput({
                 change: startChange,
-                format: "yyyy-MM-dd"
-            }).data("kendoDateInput"),
+                format: 'yyyy-MM-dd'
+            }).data('kendoDateInput'),
             end = rangeEnd.kendoDateInput({
                 change: endChange,
-                format: "yyyy-MM-dd"
-            }).data("kendoDateInput");
+                format: 'yyyy-MM-dd'
+            }).data('kendoDateInput');
     }
     start.max(end.value());
     end.min(start.value());
-    function startChange(){
+    function startChange() {
         var startDate = start.value(),
             endDate = end.value();
-        if (startDate){
+        if (startDate) {
             startDate = new Date(startDate);
             startDate.setDate(startDate.getDate());
             end.min(startDate);
-        } else if (endDate){
+        } else if (endDate) {
             start.max(new Date(endDate));
         } else {
             endDate = new Date();
@@ -516,7 +516,7 @@ function dateInputRange(rangeStart,rangeEnd,type){
             end.min(endDate);
         }
     }
-    function endChange(){
+    function endChange() {
         var endDate = end.value(),
             startDate = start.value();
         if (endDate){
@@ -534,13 +534,13 @@ function dateInputRange(rangeStart,rangeEnd,type){
 }
 
 // 表单序列化 Json 对象
-$.fn.serializeObject = function (){
-    "use strict";
+$.fn.serializeObject = function() {
+    'use strict';
     var result = {};
-    var extend = function (i, element){
+    var extend = function(i, element) {
         var node = result[element.name];
-        if ('undefined' !== typeof node && node !== null){
-            if ($.isArray(node)){
+        if ('undefined' !== typeof node && node !== null) {
+            if ($.isArray(node)) {
                 node.push(element.value);
             } else {
                 result[element.name] = [node, element.value];
