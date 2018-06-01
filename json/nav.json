@@ -6,43 +6,43 @@
             "encoded": false,
             "items": [
                 {
-                    "text": "<i class='fas fa-tasks'></i>表单<small>Forms</small><sub class='theme-l'>ing</sub>",
+                    "text": "<i class='fas fa-tasks'></i>表单<small>Forms</small>",
                     "encoded": false,
                     "items": [
                         {
                             "text": "<i class='fas fa-genderless'></i>表单 Post 提交",
                             "encoded": false,
-                            "cssClass": "links-post",
-                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"post\");"
+                            "cssClass": "links-form_post",
+                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"form_post\");"
                         },
                         {
                             "text": "<i class='fas fa-genderless'></i>表单 Ajax 提交",
                             "encoded": false,
-                            "cssClass": "links-ajax",
-                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"ajax\");"
+                            "cssClass": "links-form_ajax",
+                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"form_ajax\");"
                         },
                         {
-                            "text": "<i class='fas fa-genderless'></i>范围选择<sub class='theme-l'>New</sub>",
+                            "text": "<i class='fas fa-genderless'></i>范围选择",
                             "encoded": false,
-                            "cssClass": "links-range",
-                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"range\");"
+                            "cssClass": "links-form_range",
+                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"form_range\");"
                         },
                         {
                             "text": "<i class='fas fa-genderless'></i>下拉分组多选级联",
                             "encoded": false,
-                            "cssClass": "links-cascade",
-                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"cascade\");"
+                            "cssClass": "links-form_cascade",
+                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"form_cascade\");"
                         },
                         {
-                            "text": "<i class='fas fa-genderless'></i>地图联动选择<sub class='theme-l'>New</sub>",
+                            "text": "<i class='fas fa-genderless'></i>地图联动选择",
                             "encoded": false,
-                            "cssClass": "links-map_select",
-                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"map_select\");"
+                            "cssClass": "links-form_map",
+                            "url": "javascript:linkTo(\"/dashboard/forms/\", \"form_map\");"
                         }
                     ]
                 },
                 {
-                    "text": "<i class='fas fa-table'></i>表格<small>Grids</small>",
+                    "text": "<i class='fas fa-table'></i>表格<small>Grids</small><sub class='theme-l'>ing</sub>",
                     "encoded": false,
                     "items": [
                         {
