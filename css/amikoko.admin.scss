@@ -977,13 +977,6 @@ h1 {
 }
 
 /* 主要内容 */
-.box {
-    margin-bottom: 15px;
-    border: 1px solid $box-border-color;
-    padding: 15px;
-    background: $header-bg-color;
-}
-
 #goTop {
     display: none;
     position: fixed;
@@ -1063,10 +1056,6 @@ h1 {
 /* Bootstrap 细节完善 ------------------------------ */
 
 /* 尺寸 */
-.w-9 {
-    width: 9% !important;
-}
-
 .w-10 {
     width: 10% !important;
 }
@@ -1137,10 +1126,6 @@ h1 {
 
 .h-90 {
     height: 90% !important;
-}
-
-.ml-p1 {
-    margin-left: 1%;
 }
 
 /* Kendo UI 细节完善 ------------------------------ */
@@ -1276,4 +1261,13 @@ form {
 .k-popup .k-list .k-item > .k-group::before {
     left: -20px;
     border-width: 10px;
+}
+
+/* 自定义细节 ------------------------------ */
+.w-9 {
+    width: 9% !important;
+}
+
+.ml-p1 {
+    margin-left: 1%;
 }

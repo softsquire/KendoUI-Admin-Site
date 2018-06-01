@@ -1,196 +1,198 @@
 <script id="form_postTemp" type="text/x-kendo-template">
-    <div class="box">
-        <form action="http://www.fsg.com.cn/" method="post" enctype="multipart/form-data">
-            <div class="form-row">
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>姓名：</label>
-                    <input class="k-textbox w-100" name="realName" type="text" placeholder="文本框" required data-required-msg="请输入姓名！" pattern="[\u4E00-\u9FA5]{2,10}" validationMessage="请输入2-10个汉字！">
+    <div class="card mb-3">
+        <div class="card-body">
+            <form action="https://ikki2000.github.io/" method="post" enctype="multipart/form-data">
+                <div class="form-row">
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>姓名：</label>
+                        <input class="k-textbox w-100" name="realName" type="text" placeholder="文本框" required data-required-msg="请输入姓名！" pattern="[\u4E00-\u9FA5]{2,10}" validationMessage="请输入2-10个汉字！">
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block">昵称：</label>
+                        <input class="k-textbox w-100" name="nickName" type="text" placeholder="文本框" pattern="[A-Za-z0-9_\-\u4E00-\u9FA5]{2,20}" validationMessage="请输入2-20个大小写字母、数字、下划线及汉字！">
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>密码：</label>
+                        <input class="k-textbox w-100" name="password" type="password" placeholder="密码框" required data-required-msg="请输入密码！" pattern="[A-Za-z0-9]{6,20}" validationMessage="请输入6-20个大小写字母及数字！">
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>确认密码：</label>
+                        <input class="k-textbox w-100" name="confirmPassword" type="password" placeholder="密码框" required data-required-msg="请输入确认密码！">
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>性别：</label>
+                        <input class="k-radio" id="sex1" name="sex" type="radio" value="1"><label class="k-radio-label" for="sex1">男</label>
+                        <input class="k-radio" id="sex2" name="sex" type="radio" value="2"><label class="k-radio-label" for="sex2">女</label>
+                        <span class="k-invalid-msg" data-for="sex"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>年龄：</label>
+                        <input class="w-100" id="age" name="age" type="number" placeholder="数字框" required data-required-msg="请输入年龄！" min="1" max="100" step="1" data-min-msg="年龄最小1岁！" data-max-msg="年龄最大100岁！">
+                        <span class="k-invalid-msg" data-for="age"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>身高：</label>
+                        <input class="w-100" id="height" name="height" type="number" placeholder="小数单位数字框" required data-required-msg="请输入身高！">
+                        <span class="k-invalid-msg" data-for="height"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>血型：</label>
+                        <select class="w-100" id="bloodType" name="bloodType" required data-required-msg="请选择血型！">
+                            <option value="">单选下拉框</option>
+                            <option value="1">A 型</option>
+                            <option value="2">B 型</option>
+                            <option value="3">O 型</option>
+                            <option value="4">AB 型</option>
+                            <option value="5">其他</option>
+                        </select>
+                        <span class="k-invalid-msg" data-for="bloodType"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>生日：</label>
+                        <input class="w-100" id="birthday" name="birthday" type="date" placeholder="日期框" required data-required-msg="请输入生日！">
+                        <span class="k-invalid-msg" data-for="birthday"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>配偶生日：</label>
+                        <input class="w-100" id="mateBirthday" name="mateBirthday" type="date" placeholder="日期时间掩码框" required data-required-msg="请输入配偶生日！">
+                        <span class="k-invalid-msg" data-for="mateBirthday"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>银行卡：</label>
+                        <input class="w-100" id="creditCard" name="creditCard" type="text" placeholder="掩码框" required data-required-msg="请输入银行卡！" pattern="[\d\s]{19}" validationMessage="请补足位数！">
+                        <span class="k-invalid-msg" data-for="creditCard"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>资产：</label>
+                        <input class="w-100" id="asset" name="asset" type="number" placeholder="金融数字框" required data-required-msg="请输入资产！">
+                        <span class="k-invalid-msg" data-for="asset"></span>
+                    </div>
+                    <div class="form-group col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>籍贯：</label>
+                        <select class="w-100" id="province" name="province" required data-required-msg="请选择省份！"></select>
+                        <span class="k-invalid-msg" data-for="province"></span>
+                    </div>
+                    <div class="form-group col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-none d-md-block">&nbsp;</label>
+                        <select class="w-100" id="city" name="city" required data-required-msg="请选择城市！"></select>
+                        <span class="k-invalid-msg" data-for="city"></span>
+                    </div>
+                    <div class="form-group col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-none d-md-block">&nbsp;</label>
+                        <select class="w-100" id="area" name="area"></select>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>居住地：</label>
+                        <input class="w-100" id="domicile" name="domicile" type="text" required data-required-msg="请选择居住地！">
+                        <span class="k-invalid-msg" data-for="domicile"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>民族：</label>
+                        <input class="w-100" id="nation" name="nation" type="text" placeholder="输入下拉框" required data-required-msg="请输入民族！">
+                        <span class="k-invalid-msg" data-for="nation"></span><span class="k-invalid-msg" data-for="nation_input"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>语言：</label>
+                        <input class="w-100" id="language" name="language" type="text" placeholder="自动完成框" required data-required-msg="请输入语言！">
+                        <span class="k-invalid-msg" data-for="language"></span>
+                    </div>
+                    <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>教育程度：</label>
+                        <input class="k-checkbox" id="education1" name="education" type="checkbox" value="1"><label class="k-checkbox-label" for="education1">小学</label>
+                        <input class="k-checkbox" id="education2" name="education" type="checkbox" value="2"><label class="k-checkbox-label" for="education2">初中</label>
+                        <input class="k-checkbox" id="education3" name="education" type="checkbox" value="3"><label class="k-checkbox-label" for="education3">高中</label>
+                        <input class="k-checkbox" id="education4" name="education" type="checkbox" value="4"><label class="k-checkbox-label" for="education4">中专</label>
+                        <input class="k-checkbox" id="education5" name="education" type="checkbox" value="5"><label class="k-checkbox-label" for="education5">大专</label>
+                        <input class="k-checkbox" id="education6" name="education" type="checkbox" value="6"><label class="k-checkbox-label" for="education6">本科</label>
+                        <input class="k-checkbox" id="education7" name="education" type="checkbox" value="7"><label class="k-checkbox-label" for="education7">硕士</label>
+                        <input class="k-checkbox" id="education8" name="education" type="checkbox" value="8"><label class="k-checkbox-label" for="education8">博士</label>
+                        <input class="k-checkbox" id="education9" name="education" type="checkbox" value="9"><label class="k-checkbox-label" for="education9">其他</label>
+                        <span class="k-invalid-msg" data-for="education"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>毕业年份：</label>
+                        <input class="w-100" id="graduation" name="graduation" placeholder="年份框" required data-required-msg="请输入毕业年份！">
+                        <span class="k-invalid-msg" data-for="graduation"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>参加工作年月：</label>
+                        <input class="w-100" id="firstJob" name="firstJob" type="month" placeholder="月份框" required data-required-msg="请输入参加工作年月！">
+                        <span class="k-invalid-msg" data-for="firstJob"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>手机：</label>
+                        <input class="k-textbox w-100" name="telephone" type="tel" placeholder="手机框" required data-required-msg="请输入手机！" pattern="^1([38][0-9]|5[0-35-9]|7[0135-8]|4[579]|9[89]|66)[0-9]{8}$" validationMessage="手机格式不正确！">
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>电子邮件：</label>
+                        <input class="k-textbox w-100" name="email" type="email" placeholder="电子邮件框" required data-required-msg="请输入电子邮件！" data-email-msg="电子邮件格式不正确！">
+                    </div>
+                    <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>个人主页：</label>
+                        <input class="k-textbox w-100" name="homepage" type="url" placeholder="网址框" required data-required-msg="请输入个人主页！" data-url-msg="网址格式不正确！">
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>起床时间：</label>
+                        <input class="w-100" id="getUp" name="getUp" type="time" placeholder="时间框" required data-required-msg="请输入起床时间！">
+                        <span class="k-invalid-msg" data-for="getUp"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>最有意义的时刻：</label>
+                        <input class="w-100" id="importantMoment" name="importantMoment" type="datetime" placeholder="日期时间框" required data-required-msg="请输入最有意义的时刻！">
+                        <span class="k-invalid-msg" data-for="importantMoment"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>性格：</label>
+                        <input class="w-100" id="character" name="character" type="range" required data-required-msg="请选择性格！" value="0">
+                        <span class="k-invalid-msg" data-for="character"></span>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>颜色喜好：</label>
+                        <input class="w-100" id="color" name="color" required data-required-msg="请选择颜色喜好！">
+                        <span class="k-invalid-msg" data-for="color"></span>
+                    </div>
+                    <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>感兴趣的星座：</label>
+                        <select class="w-100" id="constellation" name="constellation" multiple required data-required-msg="请选择感兴趣的星座！">
+                            <option value="1">白羊座</option>
+                            <option value="2">金牛座</option>
+                            <option value="3">双子座</option>
+                            <option value="4">巨蟹座</option>
+                            <option value="5">狮子座</option>
+                            <option value="6">处女座</option>
+                            <option value="7">天秤座</option>
+                            <option value="8">天蝎座</option>
+                            <option value="9">射手座</option>
+                            <option value="10">山羊座</option>
+                            <option value="11">水瓶座</option>
+                            <option value="12">双鱼座</option>
+                        </select>
+                        <span class="k-invalid-msg" data-for="constellation"></span>
+                    </div>
+                    <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>自我介绍：</label>
+                        <textarea class="k-textarea w-100" name="summary" placeholder="文本域框" required data-required-msg="请输入自我介绍！"></textarea>
+                    </div>
+                    <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>头像：</label>
+                        <input class="w-100" id="photo" name="photo" type="file">
+                        <span class="k-invalid-msg" data-for="photo"></span>
+                    </div>
+                    <div class="form-group col-12" tabindex="-1">
+                        <label class="d-block"><strong class="k-required">*</strong>签名：</label>
+                        <textarea class="w-100" id="sign" name="sign" required data-required-msg="请输入签名！"></textarea>
+                        <span class="k-invalid-msg" data-for="sign"></span>
+                    </div>
+                    <div class="form-group col-12" tabindex="-1">
+                        <input id="agree" name="agree" type="checkbox" required validationMessage="必须同意条款才能提交！"><label for="agree">我同意</label>
+                        <span class="k-invalid-msg" data-for="agree"></span>
+                    </div>
                 </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block">昵称：</label>
-                    <input class="k-textbox w-100" name="nickName" type="text" placeholder="文本框" pattern="[A-Za-z0-9_\-\u4E00-\u9FA5]{2,20}" validationMessage="请输入2-20个大小写字母、数字、下划线及汉字！">
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>密码：</label>
-                    <input class="k-textbox w-100" name="password" type="password" placeholder="密码框" required data-required-msg="请输入密码！" pattern="[A-Za-z0-9]{6,20}" validationMessage="请输入6-20个大小写字母及数字！">
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>确认密码：</label>
-                    <input class="k-textbox w-100" name="confirmPassword" type="password" placeholder="密码框" required data-required-msg="请输入确认密码！">
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>性别：</label>
-                    <input class="k-radio" id="sex1" name="sex" type="radio" value="1"><label class="k-radio-label" for="sex1">男</label>
-                    <input class="k-radio" id="sex2" name="sex" type="radio" value="2"><label class="k-radio-label" for="sex2">女</label>
-                    <span class="k-invalid-msg" data-for="sex"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>年龄：</label>
-                    <input class="w-100" id="age" name="age" type="number" placeholder="数字框" required data-required-msg="请输入年龄！" min="1" max="100" step="1" data-min-msg="年龄最小1岁！" data-max-msg="年龄最大100岁！">
-                    <span class="k-invalid-msg" data-for="age"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>身高：</label>
-                    <input class="w-100" id="height" name="height" type="number" placeholder="小数单位数字框" required data-required-msg="请输入身高！">
-                    <span class="k-invalid-msg" data-for="height"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>血型：</label>
-                    <select class="w-100" id="bloodType" name="bloodType" required data-required-msg="请选择血型！">
-                        <option value="">单选下拉框</option>
-                        <option value="1">A 型</option>
-                        <option value="2">B 型</option>
-                        <option value="3">O 型</option>
-                        <option value="4">AB 型</option>
-                        <option value="5">其他</option>
-                    </select>
-                    <span class="k-invalid-msg" data-for="bloodType"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>生日：</label>
-                    <input class="w-100" id="birthday" name="birthday" type="date" placeholder="日期框" required data-required-msg="请输入生日！">
-                    <span class="k-invalid-msg" data-for="birthday"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>配偶生日：</label>
-                    <input class="w-100" id="mateBirthday" name="mateBirthday" type="date" placeholder="日期时间掩码框" required data-required-msg="请输入配偶生日！">
-                    <span class="k-invalid-msg" data-for="mateBirthday"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>银行卡：</label>
-                    <input class="w-100" id="creditCard" name="creditCard" type="text" placeholder="掩码框" required data-required-msg="请输入银行卡！" pattern="[\d\s]{19}" validationMessage="请补足位数！">
-                    <span class="k-invalid-msg" data-for="creditCard"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>资产：</label>
-                    <input class="w-100" id="asset" name="asset" type="number" placeholder="金融数字框" required data-required-msg="请输入资产！">
-                    <span class="k-invalid-msg" data-for="asset"></span>
-                </div>
-                <div class="form-group col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>籍贯：</label>
-                    <select class="w-100" id="province" name="province" required data-required-msg="请选择省份！"></select>
-                    <span class="k-invalid-msg" data-for="province"></span>
-                </div>
-                <div class="form-group col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-none d-md-block">&nbsp;</label>
-                    <select class="w-100" id="city" name="city" required data-required-msg="请选择城市！"></select>
-                    <span class="k-invalid-msg" data-for="city"></span>
-                </div>
-                <div class="form-group col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-none d-md-block">&nbsp;</label>
-                    <select class="w-100" id="area" name="area"></select>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>居住地：</label>
-                    <input class="w-100" id="domicile" name="domicile" type="text" required data-required-msg="请选择居住地！">
-                    <span class="k-invalid-msg" data-for="domicile"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>民族：</label>
-                    <input class="w-100" id="nation" name="nation" type="text" placeholder="输入下拉框" required data-required-msg="请输入民族！">
-                    <span class="k-invalid-msg" data-for="nation"></span><span class="k-invalid-msg" data-for="nation_input"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>语言：</label>
-                    <input class="w-100" id="language" name="language" type="text" placeholder="自动完成框" required data-required-msg="请输入语言！">
-                    <span class="k-invalid-msg" data-for="language"></span>
-                </div>
-                <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>教育程度：</label>
-                    <input class="k-checkbox" id="education1" name="education" type="checkbox" value="1"><label class="k-checkbox-label" for="education1">小学</label>
-                    <input class="k-checkbox" id="education2" name="education" type="checkbox" value="2"><label class="k-checkbox-label" for="education2">初中</label>
-                    <input class="k-checkbox" id="education3" name="education" type="checkbox" value="3"><label class="k-checkbox-label" for="education3">高中</label>
-                    <input class="k-checkbox" id="education4" name="education" type="checkbox" value="4"><label class="k-checkbox-label" for="education4">中专</label>
-                    <input class="k-checkbox" id="education5" name="education" type="checkbox" value="5"><label class="k-checkbox-label" for="education5">大专</label>
-                    <input class="k-checkbox" id="education6" name="education" type="checkbox" value="6"><label class="k-checkbox-label" for="education6">本科</label>
-                    <input class="k-checkbox" id="education7" name="education" type="checkbox" value="7"><label class="k-checkbox-label" for="education7">硕士</label>
-                    <input class="k-checkbox" id="education8" name="education" type="checkbox" value="8"><label class="k-checkbox-label" for="education8">博士</label>
-                    <input class="k-checkbox" id="education9" name="education" type="checkbox" value="9"><label class="k-checkbox-label" for="education9">其他</label>
-                    <span class="k-invalid-msg" data-for="education"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>毕业年份：</label>
-                    <input class="w-100" id="graduation" name="graduation" placeholder="年份框" required data-required-msg="请输入毕业年份！">
-                    <span class="k-invalid-msg" data-for="graduation"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>参加工作年月：</label>
-                    <input class="w-100" id="firstJob" name="firstJob" type="month" placeholder="月份框" required data-required-msg="请输入参加工作年月！">
-                    <span class="k-invalid-msg" data-for="firstJob"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>手机：</label>
-                    <input class="k-textbox w-100" name="telephone" type="tel" placeholder="手机框" required data-required-msg="请输入手机！" pattern="^1([38][0-9]|5[0-35-9]|7[0135-8]|4[579]|9[89]|66)[0-9]{8}$" validationMessage="手机格式不正确！">
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>电子邮件：</label>
-                    <input class="k-textbox w-100" name="email" type="email" placeholder="电子邮件框" required data-required-msg="请输入电子邮件！" data-email-msg="电子邮件格式不正确！">
-                </div>
-                <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>个人主页：</label>
-                    <input class="k-textbox w-100" name="homepage" type="url" placeholder="网址框" required data-required-msg="请输入个人主页！" data-url-msg="网址格式不正确！">
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>起床时间：</label>
-                    <input class="w-100" id="getUp" name="getUp" type="time" placeholder="时间框" required data-required-msg="请输入起床时间！">
-                    <span class="k-invalid-msg" data-for="getUp"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>最有意义的时刻：</label>
-                    <input class="w-100" id="importantMoment" name="importantMoment" type="datetime" placeholder="日期时间框" required data-required-msg="请输入最有意义的时刻！">
-                    <span class="k-invalid-msg" data-for="importantMoment"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>性格：</label>
-                    <input class="w-100" id="character" name="character" type="range" required data-required-msg="请选择性格！" value="0">
-                    <span class="k-invalid-msg" data-for="character"></span>
-                </div>
-                <div class="form-group col-sm-6 col-md-4 col-lg-3 col-xl-2" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>颜色喜好：</label>
-                    <input class="w-100" id="color" name="color" required data-required-msg="请选择颜色喜好！">
-                    <span class="k-invalid-msg" data-for="color"></span>
-                </div>
-                <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>感兴趣的星座：</label>
-                    <select class="w-100" id="constellation" name="constellation" multiple required data-required-msg="请选择感兴趣的星座！">
-                        <option value="1">白羊座</option>
-                        <option value="2">金牛座</option>
-                        <option value="3">双子座</option>
-                        <option value="4">巨蟹座</option>
-                        <option value="5">狮子座</option>
-                        <option value="6">处女座</option>
-                        <option value="7">天秤座</option>
-                        <option value="8">天蝎座</option>
-                        <option value="9">射手座</option>
-                        <option value="10">山羊座</option>
-                        <option value="11">水瓶座</option>
-                        <option value="12">双鱼座</option>
-                    </select>
-                    <span class="k-invalid-msg" data-for="constellation"></span>
-                </div>
-                <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>自我介绍：</label>
-                    <textarea class="k-textarea w-100" name="summary" placeholder="文本域框" required data-required-msg="请输入自我介绍！"></textarea>
-                </div>
-                <div class="form-group col-lg-9 col-xl-6" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>头像：</label>
-                    <input class="w-100" id="photo" name="photo" type="file">
-                    <span class="k-invalid-msg" data-for="photo"></span>
-                </div>
-                <div class="form-group col-12" tabindex="-1">
-                    <label class="d-block"><strong class="k-required">*</strong>签名：</label>
-                    <textarea class="w-100" id="sign" name="sign" required data-required-msg="请输入签名！"></textarea>
-                    <span class="k-invalid-msg" data-for="sign"></span>
-                </div>
-                <div class="form-group col-12" tabindex="-1">
-                    <input id="agree" name="agree" type="checkbox" required validationMessage="必须同意条款才能提交！"><label for="agree">我同意</label>
-                    <span class="k-invalid-msg" data-for="agree"></span>
-                </div>
-            </div>
-            <p class="d-flex justify-content-center">
-                <button id="submitBtn" class="k-button k-button-lg k-state-selected mx-3" type="button">提 交</button>
-                <button class="k-button k-button-lg mx-3" type="reset">重 置</button>
-            </p>
-        </form>
+                <p class="d-flex justify-content-center">
+                    <button id="submitBtn" class="k-button k-button-lg k-state-selected mx-3" type="button">提 交</button>
+                    <button class="k-button k-button-lg mx-3" type="reset">重 置</button>
+                </p>
+            </form>
+        </div>
     </div>
 </script>
