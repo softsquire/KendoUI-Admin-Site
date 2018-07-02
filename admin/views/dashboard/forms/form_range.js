@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
     // 数字范围
     numericRange($('#ageStart'), $('#ageEnd'), 'n0', 0, 1, 1, 100);
     // 小数单位数字范围

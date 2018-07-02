@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
     // 提示
     noticeMsg('地理数据量大~ 载入中……', 'info', 'center', noFunc);
     // 自动完成框分组

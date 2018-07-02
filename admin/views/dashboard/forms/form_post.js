@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
     // 年龄
     $('#age').kendoNumericTextBox({
         format: 'n0',

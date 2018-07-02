@@ -55,7 +55,7 @@ $(function() {
     });
     // 回车解锁
     $('body').on('keyup', '#locking input', function(event) {
-        if(event.keyCode == 13){
+        if(event.keyCode === 13){
             unlockScreen();
         }
     });
